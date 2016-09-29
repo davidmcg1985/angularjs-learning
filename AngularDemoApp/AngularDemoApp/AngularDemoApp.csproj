@@ -66,9 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EditProfile.html" />
-    <Content Include="EventDetails.html" />
-    <Content Include="favicon.ico" />
+    <Content Include="app\EditProfile.html" />
+    <Content Include="app\EventDetails.html" />
+    <Content Include="app\favicon.ico" />
     <Content Include="app\lib\angular\angular-resource.js" />
     <Content Include="app\lib\angular\angular-resource.min.js" />
     <Content Include="app\lib\angular\angular-route.js" />
@@ -81,7 +81,7 @@
     <Content Include="app\lib\bootstrap.min.js" />
     <Content Include="app\lib\jquery.min.js" />
     <Content Include="app\lib\underscore-1.4.4.min.js" />
-    <Content Include="NewEvent.html" />
+    <Content Include="app\NewEvent.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\version.json" />
@@ -98,6 +98,10 @@
     <Content Include="Scripts\angular-aria.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="server.bat" />
+    <Content Include="server.sh" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -952,6 +956,9 @@
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="test\karma.conf.js" />
+    <Content Include="test\lib\angular-mocks.js" />
+    <Content Include="test\lib\sinon-1.15.0.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -962,6 +969,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="test\e2e\" />
+    <Folder Include="test\unit\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
